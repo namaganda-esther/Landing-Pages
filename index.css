@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container{
+}
+
+.header-container{
+    background-color:#1F2937;
+    display: flex;
+}
+
+.menu{
+    background-color:#1F2937;
+    padding-bottom: 3px;
+    float: right;
+}
+
+.menu img{
+    width: 40%;
+    height: 30%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-top: 3%;
+}
+  
+li {
+    float: right;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: larger;
+    float: right;
+    
+}
+
+.content{
+    display: flex;
+    padding-left: 15%;
+    padding-top: 5%;
+}
+
+.content-left{
+     color: white;
+}
+
+.h1{
+    font-size: 48px extra bold;
+}
+
+.h3{
+    font-size: 18px;
+}
+
+.content-right img{
+    width: 100%;
+    justify-content: flex-end;
+    padding-left: 20%;
+}
+
+.button{
+    background-color: #3882F6;
+    color: white;
+    width: 30%;
+    height:10%;
+    border-color: white;
+    border-radius: 1em;
+    border-width: 5%;
+    border: 5px;
+}
+
+.Img-container{
+    background-color: #F3F0D7;
+}
+
+.h2{
+    font-size: 36px extra bold;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.image-container{
+   display: flex;
+   padding: 3%;
+   padding-left: 10%;
+   padding-right: 10%;
+   text-align: center;
+}
+
+img{
+    height: 70%;
+    width: 70%;
+    padding: 1%;
+    border-radius: 1em;
+}
+
+.image-container p{
+    font-style: 36px light italic;
+}
+
+.content-container{
+    background-color:#E5E7EB;
+    padding: 5%;
+    /* color: white; */
+    font-style: light italic;
+    font-size: 36px;
+}
+
+.content-container h4{
+    text-align: center;
+}
+
+.content-container p{
+    text-align: right;
+    padding-right: 5%;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.container1{
+    background-color: #3882F6;
+    text-align: justify;
+    display: flex;
+    padding-left: 10%;
+    margin: 40px;
+    /* border: radius 1px;rem; */
+    color: white;
+    border-radius: 1em;
+    font-size: 24px;
+
+}
+
+.container1-right{
+    justify-content: right;
+    text-align: right;
+    background-color: #3882F6;
+    color: white;
+    width: 30%;
+    height:20%;
+    padding-top: 5%;
+    
+}
+
+#button{
+    border-radius: 1em;
+    border-style:solid;
+    padding: 5px;
+    width: 120px;
+}
+
+.footer{
+    background-color:#1F2937 ;
+    padding: 2%;
+    text-align: center;
+    color: white;
+}
